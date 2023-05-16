@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Athiti'; /* TODO: import from google later */
+    color: #0B4654;
+}
+
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 32px;
+}
+
+.logo-and-brandname {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 63px;
+}
+
+.brandname {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 45px;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
